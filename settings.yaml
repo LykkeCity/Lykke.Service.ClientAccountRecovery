@@ -3,7 +3,7 @@ ClientAccountRecoveryService:
     settings-key: ClientAccountRecoveryService-ApiKey
   Db:
     LogsConnString:
-        settings-key: LogsConnString
+        settings-key: ClientAccountRecoveryService-LogsConnString
         types: [ AzureTableStorage ]
     RecoveryActivitiesConnString:
         settings-key: ClientAccountRecoveryService-RecoveryActivitiesConnString
